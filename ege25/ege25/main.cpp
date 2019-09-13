@@ -5,6 +5,6 @@ using namespace std;
 
 int main()
 {
-	task11361();
+	task9209();
 	return 0;
 }

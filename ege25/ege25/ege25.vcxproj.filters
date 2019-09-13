@@ -27,6 +27,12 @@
     <ClCompile Include="task11361.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="task9209.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="serviceForArray.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="25.1.h">
