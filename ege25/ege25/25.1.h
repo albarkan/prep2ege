@@ -8,4 +8,6 @@ void task7770();
 
 void task7797();
 
+void task11361();
+
 

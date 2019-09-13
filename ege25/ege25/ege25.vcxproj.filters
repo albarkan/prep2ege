@@ -24,6 +24,9 @@
     <ClCompile Include="task7797.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="task11361.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="25.1.h">
