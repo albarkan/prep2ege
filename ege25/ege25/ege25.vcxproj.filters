@@ -30,13 +30,13 @@
     <ClCompile Include="task9209.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="serviceForArray.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="task9811.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="task2914.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task2913.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
