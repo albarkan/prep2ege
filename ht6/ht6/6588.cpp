@@ -14,9 +14,7 @@ int task6588()
     int A[N];
     
     for (i = 0; i < N; i++)
-    {
         cin >> A[i];
-    }
     
     for ( i= 0; i < N; i++)
     {
@@ -26,6 +24,5 @@ int task6588()
         }
     }
     cout << p;
-    
     return 0;
 }
