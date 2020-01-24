@@ -6,5 +6,5 @@ using namespace std;
 
 int main()
 {
-    task9376();
+    task9706();
 }
