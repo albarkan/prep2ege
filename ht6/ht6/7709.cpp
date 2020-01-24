@@ -12,14 +12,14 @@ int task7709()
     for (i = 0; i < N; i++)
     cin >> a[i];
     
-    for (i = 0; i < N; i++)
+    for (i = 0; i < N - 1; i++)
     {
-        if ((a[i] % 10 + a[i] / 10) % 3 == 0) && (a[i] % 10 + a[i] / 10) % 9 != 0)
+    if ((a[i] + a[i + 1]) % 3 == 0 && (a[i] + a[i + 1]) % 9 != 0)
         {
-            
-        } else {
-            <#statements#>
+            j++;
         }
     }
+        cout << j;
     return 0;
 }
+

@@ -11,7 +11,7 @@ int task9706()
   int i, j, min;
   for (i = 0; i < N; i++)
     cin >> a[i];
-    min = 10000;
+    min = INT_MAX;
     j = 1;
     
     for (i = 0; i < N; i++)
@@ -28,10 +28,7 @@ int task9706()
     }
     else
     {
-        if(j == 0)
-        {
         cout << min;
-        }
     }
     return 0;
 }

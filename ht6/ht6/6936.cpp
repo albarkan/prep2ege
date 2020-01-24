@@ -7,17 +7,24 @@ using namespace std;
 int task6936()
 {
     float a[N];
-    float d, r;
+    float d;
     int i, j, k;
+    d = 0;
+    j = 0;
+    k = 0;
     for (i = 0; i < N; i++)
     cin >> a[i];
     
     for (i = 0; i < N - 1; i++)
     {
-        if (abs(a[i] - a[i + 1]) > j) {
-            j = a
+        if (abs(a[i] - a[i + 1]) > d)
+        {
+            d = abs(a[i] - a[i + 1]);
+            j = i;
+            k = i + 1;
         }
     }
+    cout << a[j] << " " << a[k];
     return 0;
 }
 
