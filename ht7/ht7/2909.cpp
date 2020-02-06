@@ -18,10 +18,14 @@ int task2909(void)
         {
             s += a[i];
         }
-        else
-        {
-            cout << "Negative elements were not found";
-        }
+    }
+    if (s == 0)
+    {
+        cout << "Negative elements were not found";
+    }
+    else
+    {
+        cout << s;
     }
     return 0;
 }

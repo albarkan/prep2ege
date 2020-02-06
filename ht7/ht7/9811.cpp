@@ -19,7 +19,7 @@ int task9811()
     cin >> a[i];
     for (i = 0; i < N - 2; i++)
     {
-        if (a[i] > a[i + 1] && a[i + 1] < a[i + 2] < j)
+        if (a[i] > a[i + 1] && a[i + 1] < a[i + 2] && a[i + 1] < j)
         {
             j = a[i + 1];
             k = 1;

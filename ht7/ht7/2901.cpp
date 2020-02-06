@@ -15,18 +15,19 @@ int task2901(void)
     x = 0;
     y = 0;
     
-    for (i=0; i < N; i++)
+    for (i = 0; i < N; i++)
     cin >> a[i];
     
     for (i = 0; i < N; i++)
     {
         if (a[i] % 2 != 0)
         {
-            x++;
             y += a[i];
+            x++;
         }
     }
     s = y / x;
     cout << s;
-        return 0;
+    
+    return 0;
 }
