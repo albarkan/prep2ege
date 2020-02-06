@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define N 23
+#define N 6
 
 int task2937(void)
 {
