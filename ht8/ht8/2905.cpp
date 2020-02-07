@@ -16,7 +16,7 @@ int task2905(void)
     {
         if (arr[i] < 0 && arr[i] > max)
         {
-            max = arr[i];              //МАКСИМАЛЬНУЮ -20 или -1   ?!
+            max = arr[i];          
         }
     }
     cout << max;
