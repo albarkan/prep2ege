@@ -7,11 +7,13 @@ using namespace std;
 int task3602(void)
 {
     float a[N];
-    int i, j = 0;
+    int i, j;
     
     for (int i = 0; i < N; i++)
     cin >> a[i];
     
+	j = 0;
+	
     for (i = 0; i < N; i++)   // -1 2 -1 3 4 -5
     {
         if (a[i] < 0)

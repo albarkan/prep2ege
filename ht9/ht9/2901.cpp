@@ -26,7 +26,7 @@ int task2901(void)
             x++;
         }
     }
-    s = y / x;
+    s = float(y) / x;
     cout << s;
     
     return 0;
