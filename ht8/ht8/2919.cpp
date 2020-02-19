@@ -7,23 +7,28 @@ using namespace std;
 
 int task2919()              // ???
 {
-    int arr[N];
-    int i, j, maxAge;
-    j = 0;
-    maxAge = 0;
+    int years[N];
+    int i, oldest;
+    oldest = INT_MAX;
     
     for (i = 0; i < N; i++)
     {
-        cin >> arr[i];
+        cin >> years[i];
     }
-    for (i = 0; i < N - 1; i++)            // 12 4 45 1 4 45
+
+    for (i = 0; i < N; i++)
+       {
+           if (years[i] < oldest)
+           {
+               oldest = years[i];
+           }
+       }
+    for (i = 0; i < N ; i++)
     {
-        j++;
-        if (arr[i] > maxAge)
+        if (years[i] == oldest)
         {
-            maxAge = j;
+            cout << i << " ";
         }
     }
-    cout << maxAge;
     return 0;
 }

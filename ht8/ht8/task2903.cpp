@@ -20,3 +20,4 @@ int task2903()
     cout <<
     return 0;
 }
+
