@@ -14,3 +14,4 @@
 
 int task5256();
 int task2920();
+int task13371();
