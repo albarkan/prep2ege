@@ -11,7 +11,7 @@ using namespace std;
 int task4735()
 {
     int a[N];
-    int i, j, m;
+    int i, m;
     for (i = 0 ; i < N; i++)
     cin >> a[i];
 
