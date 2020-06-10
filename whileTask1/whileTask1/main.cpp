@@ -1,11 +1,8 @@
 #include <iostream>
-#include "25.h"
-
+#include "h.h"
 using namespace std;
 
 int main()
 {
-	task3610();
-
-	return 0;
+    while3();
 }

@@ -1,11 +1,11 @@
 #include <iostream>
-#include "25.h"
+#include "aegy.h"
 
 using namespace std;
 
 int main()
 {
-	task3610();
-
-	return 0;
+    task2920();
+    return 0;
 }
+
