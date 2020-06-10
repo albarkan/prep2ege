@@ -32,8 +32,9 @@ int task4957()
 		{
 			x = a[i];
 		}
-		y -= x;
 	}
+
+	y -= x;
 
 	cout << y;
 	system("pause");
