@@ -34,5 +34,6 @@
 # Another things (VS)
 **/.vs
 *.vcxproj.user
+
 **/Debug
 /.metadata/

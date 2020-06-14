@@ -37,8 +37,7 @@ void task_5503()
         {
             kr14 = seq;
         }
-        
-        if (kr14 > max)
+        else if (seq > max)
         {
             max = seq;
         }
@@ -52,6 +51,17 @@ void task_5503()
     {
         productkr14 = kr2 * kr7;
     }
+
+    if (kr2 * kr14 > productkr14)
+    {
+        productkr14 = kr2 * kr14;
+    }
+
+    if (kr7 * kr14 > productkr14)
+    {
+        productkr14 = kr7 * kr14;
+    }
+
     cout << "counted main value" << productkr14;
     if (r == productkr14)
     {
@@ -68,8 +78,7 @@ void task_6971()
 {
     int kr2 = 0;
     int kr5 = 0;
-    int kr10 = 0;
-    int max = 0;
+    int notKr10 = 0;
     int r = 0;
     int seq = 0;
     int size = 0;
@@ -84,30 +93,27 @@ void task_6971()
         {
             kr2 = seq;
         }
-        else if(seq % 2 == 0 && seq % 5 != 0 && seq > kr5)
+        else if (seq % 2 == 0 && seq % 5 != 0 && seq > kr5)
         {
             kr5 = seq;
         }
-        else if(seq % 10 != 0 && seq > kr10)
+        else if (seq % 10 != 0 && seq > notKr10)
         {
-            kr10 = seq;
-        }
-        
-        if (kr10 > max)
-        {
-            max = seq;
+            notKr10 = seq;
         }
     }
     cout << "size =" << size;
     cin >> r;
-    if (kr2 * kr5 < kr10 * max)
+    if (notKr10 % 2 != 0)
     {
-        productkr10 = kr10 * max;
+        productkr10 = notKr10 * kr5;
     }
-    else
+
+    if (notKr10 % 5 != 0 && productkr10 < notKr10 * kr2)
     {
-        productkr10 = kr2 * kr5;
+        productkr10 = notKr10 * kr2;
     }
+
     cout << "counted main value" << productkr10;
     if (r == productkr10)
     {
